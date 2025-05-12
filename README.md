@@ -1,39 +1,39 @@
 # Ex.06 Book Front Cover Page Design
-## Date:12.5.2025
-
-## AIM:
-To design a book front cover page using HTML and CSS.
-
-## DESIGN STEPS:
-
-### Step 1:
-Create a Django Admin project.
-
-### Step 2:
-Create an app in the Django interface.
-
-### Step 3:
-Create a folder named 'static' in the app folder.
-
-### Step 4:
-Create a new HTML file in the static folder.
-
-### Step 5:
-Write the HTML code with relevant CSS properties.
-
-### Step 6:
-Choose the appropriate style and color scheme.
-
-### Step 7:
-Insert the images in their appropriate places.
-
-### Step 8:
-Publish the website in the LocalHost.
-
-## PROGRAM:
-```
-<!DOCTYPE html>
-<html lang="en">
+ ## Date:29.04.2025
+ 
+ ## AIM:
+ To design a book front cover page using HTML and CSS.
+ 
+ ## DESIGN STEPS:
+ 
+ ### Step 1:
+ Create a Django Admin project.
+ 
+ ### Step 2:
+ Create an app in the Django interface.
+ 
+ ### Step 3:
+ Create a folder named 'static' in the app folder.
+ 
+ ### Step 4:
+ Create a new HTML file in the static folder.
+ 
+ ### Step 5:
+ Write the HTML code with relevant CSS properties.
+ 
+ ### Step 6:
+ Choose the appropriate style and color scheme.
+ 
+ ### Step 7:
+ Validate the HTML code.
+ Insert the images in their appropriate places.
+ 
+ ### Step 8:
+ Publish the website in the LocalHost.
+ 
+ ## PROGRAM:
+ ```
+<html>
 <head>
   <meta charset="UTF-8">
   <title>Book Cover</title>
@@ -52,7 +52,7 @@ Publish the website in the LocalHost.
     .book-cover {
       width: 400px;
       height: 600px;
-      background: palevioletred;
+      background:lavender;
       border: 2px solid #333;
       padding: 40px 30px;
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
@@ -76,11 +76,6 @@ Publish the website in the LocalHost.
       font-style: italic;
     }
 
-    .image {
-      flex: 1;
-      background: url('https://upload.wikimedia.org/wikipedia/commons/6/65/Simple_flowers_black_line_art.png') center/contain no-repeat;
-      margin: 30px 0;
-    }
 
     .author {
       font-size: 18px;
@@ -88,11 +83,36 @@ Publish the website in the LocalHost.
       color: #444;
       margin-top: 20px;
     }
-    ```
+
+    .line {
+      height: 2px;
+      background: #333;
+      width: 50px;
+      margin: 10px auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="book-cover">
+    <div>
+      <div class="title">The Power of your subconscious mind  </div>
+      <div class="line"></div>
+      <div class="subtitle"></div>
+    </div>
+    <div class="image">
+        <img src= "brain.jpg"  length="10%" width="100%">
+    </div>
+    <div class="author">By Joseph Murphy</div>
+  </div>
+</body>
+</html>
+```
+ 
+ ## OUTPUT:
+ 
+![Screenshot 2025-05-12 162628](https://github.com/user-attachments/assets/8f1a7254-48f4-404f-bf5e-acfc152ddfb0)
 
 
-## OUTPUT:
-![image](https://github.com/user-attachments/assets/3e772c8d-234c-4c9c-815c-041bc210c878)
-
-## RESULT:
-The program for designing book front cover page using HTML and CSS is completed successfully.
+ 
+ ## RESULT:
+ The program for designing book front cover page using HTML and CSS is completed successfully.
